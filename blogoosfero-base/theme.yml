@@ -1,0 +1,3 @@
+name: "Base theme for profiles in Blogoosfero"
+layout: "application-ng"
+icon_theme: [default, pidgin]

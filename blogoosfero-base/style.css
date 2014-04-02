@@ -1,0 +1,47 @@
+@import url(../profile-base/style.css);
+
+#wrap-1 {
+  width: auto;
+}
+
+#wrap-2 {
+  width: 940px;
+  margin: auto;
+}
+
+.logged-in #wrap-2 {
+  margin-top: 35px;
+}
+
+#profile-header {
+  width: 960px;
+}
+
+#theme-header {
+  width: 100%;
+  background-color: #FFF;
+  top: 0px;
+  z-index: 5;
+  border-bottom: 1px solid #D3D7CF;
+}
+
+.logged-in #theme-header,
+.logged-in #site-title,
+.logged-in #user {
+  position: fixed;
+}
+
+.logged-in #site-title {
+  top: 5px;
+  height: 30px;
+  left: 20px;
+}
+
+.logged-in #user {
+  top: 5px;
+  right: 20px;
+}
+
+#user form div {
+  display: none;
+}

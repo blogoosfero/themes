@@ -1,0 +1,3 @@
+name: "Default profile theme"
+layout: "application-ng"
+icon_theme: [default, pidgin]
