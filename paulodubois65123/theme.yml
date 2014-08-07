@@ -1,0 +1,5 @@
+name: "Tema da campanha"
+layout: "application-ng"
+icon_theme: [default, pidgin]
+owner_id: 3240
+owner_type: Profile
