@@ -1,18 +1,44 @@
-@import url(../base/style.css);
-#theme-header {
-  background-image: url(images/header.png);
-  width: 960px;
-  height: 302px; }
+@import url(../blogoosfero-base/style.css);
+body.logged-in #theme-header, body #theme-header {
+  position: absolute;
+  height: 0;
+  border: none;
+  top: 0; }
+  body.logged-in #theme-header #bar, body #theme-header #bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border-bottom: 1px solid #D3D7CF; }
+  body.logged-in #theme-header #image, body #theme-header #image {
+    margin: auto;
+    background-image: url(images/header.png);
+    width: 960px;
+    height: 302px; }
 
 /************************** content ***************************/
 #wrap-2 {
   padding: 10px; }
   #wrap-2 #user, #wrap-2 #site-title {
-    display: none; }
+    top: 0px; }
+  #wrap-2 #site-title {
+    background: none;
+    width: 400px; }
+    #wrap-2 #site-title a {
+      color: #aa0000; }
+  #wrap-2 #user {
+    margin-top: 8px; }
+    #wrap-2 #user #top-search {
+      display: none; }
+  #wrap-2 #content {
+    margin: 0; }
   #wrap-2 #navigation {
-    position: inherit;
-    top: 0;
-    right: 0;
+    position: static;
+    display: block;
+    margin-top: 302px;
     height: 30px;
     padding: 10px;
     margin-left: -10px;
@@ -24,19 +50,24 @@
       height: auto; }
       #wrap-2 #navigation ul li {
         width: auto;
-        text-align: inherit; }
+        text-align: inherit;
+        border-right: 2px solid white;
+        padding: 0 13px; }
+        #wrap-2 #navigation ul li:first-child {
+          padding-left: 0; }
+        #wrap-2 #navigation ul li:last-child {
+          padding-right: 0;
+          border-right: none; }
         #wrap-2 #navigation ul li a {
           color: white;
-          font-size: 21px;
+          font-size: 20px;
+          line-height: 20px;
           font-weight: bold;
-          border: none;
-          padding: 0 10px; }
+          border: none; }
           #wrap-2 #navigation ul li a:hover {
             background: inherit; }
     #wrap-2 #navigation #navigation-end {
       display: none; }
-  #wrap-2 #content {
-    margin: 0; }
 
 #content .block-title,
 #content .main-block h1, #not-found h1, #access-denied h1 {
@@ -86,7 +117,7 @@
 
 /************************** theme footer ***************************/
 #theme-footer {
-  padding: 10px;
+  padding: 10px 0;
   background: #aa0000;
   text-align: center; }
   #theme-footer #footer-content .address {
