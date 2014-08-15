@@ -11,7 +11,7 @@ $color-red: #AA0000;
 
 body {
   background-image: url(/tema/fundo.png);
-  font-family: Verdana;
+  font-family: sans-serif;
 
   &.logged-in, & {
     #theme-header {
@@ -111,8 +111,8 @@ body {
 
         a {
           color: white;
-          font-size: 17px;
-          line-height: 17px;
+          font-size: 19px;
+          line-height: 19px;
           font-weight: bold;
           border: none;
 
