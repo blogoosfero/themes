@@ -10,7 +10,8 @@ $margin: 2*$base;
 $color-red: #AA0000;
 
 body {
-  //background-image: url(/fundos/fundo.png);
+  background-image: url(/tema/fundo.png);
+  font-family: Verdana;
 
   &.logged-in, & {
     #theme-header {
@@ -107,8 +108,8 @@ body {
 
         a {
           color: white;
-          font-size: 20px;
-          line-height: 20px;
+          font-size: 17px;
+          line-height: 17px;
           font-weight: bold;
           border: none;
 
