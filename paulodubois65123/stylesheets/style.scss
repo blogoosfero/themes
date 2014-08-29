@@ -1,5 +1,8 @@
 @import url(../blogoosfero-base/style.css);
 
+$style-headers: true;
+@import 'base_color';
+
 $base: 10px;
 $width: $base;
 $height: $base;
@@ -73,6 +76,8 @@ body {
 
   #content {
     margin: 0;
+
+    @include base_color($color-red, $color-red, $color-red);
   }
 
   #navigation {
@@ -107,7 +112,6 @@ body {
           padding-right: 0;
           border-right: none;
         }
-
 
         a {
           color: white;
@@ -211,3 +215,6 @@ body {
     }
   }
 }
+
+@import url(/tema/style.css?layout=false);
+
