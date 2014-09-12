@@ -1,5 +1,4 @@
 @import url(../blogoosfero-base/style.css);
-@import url(/tema/style.css?layout=false);
 body {
   background-image: url(/tema/fundo.png);
   font-family: Liberation Sans, Arial, sans-serif; }
