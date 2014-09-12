@@ -1,8 +1,6 @@
 @import url(../base/style.css);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,700italic);
 
 body {
-  font-family: 'Ubuntu', sans-serif;
   background: #F8F8F8 url(images/grade2.png);
   color: #000;
 }
