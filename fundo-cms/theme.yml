@@ -1,5 +1,5 @@
 name: "Meu tema"
 layout: "application-ng"
-jquery_theme: "smoothness_mod"
+jquery_theme: "smoothness"
 icon_theme: [default, pidgin]
 public: true
