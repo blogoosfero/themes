@@ -327,6 +327,7 @@ body {
 
 #content {
   margin-top: 150px;
+  overflow: hidden;
 }
 
 #main-content-wrapper-1, #main-content-wrapper-2,
