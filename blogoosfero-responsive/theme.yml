@@ -1,0 +1,6 @@
+name: "Blogoosfero"
+layout: "application-ng"
+jquery_theme: "smoothness"
+icon_theme: [awesome, pidgin]
+public: true
+responsive: true
