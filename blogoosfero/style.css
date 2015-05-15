@@ -430,7 +430,10 @@ body {
   background-image:         linear-gradient(top, #EFEAE0, #CFCAC0);
   -moz-border-radius: 8px;
   border-radius: 8px;
+  font-size: 20px;
+  height: 32px;
 }
+
 #content .login-block input.button.icon-login:hover {
   -webkit-box-shadow: 0 0 6px #FFF;
   -moz-box-shadow: 0 0 6px #FFF;
