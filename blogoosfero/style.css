@@ -169,6 +169,7 @@ body {
   -moz-border-radius: 6px;
   border-radius: 6px;
   padding: 7px 0px;
+  width: 90px;
 }
 
 #cse-search-box div,
