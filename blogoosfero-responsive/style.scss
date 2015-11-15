@@ -1,23 +1,19 @@
 @import url(../blogoosfero-responsive/bootstrap/all.css);
-@import url(../base-responsive/style.css);
+$bootstrap-loaded: true;
+@import '../base-responsive/style';
 
 body {
   background: #F8F8F8 url(images/grade2.png);
   color: #000;
 }
 
-/* BETA - INICIO */
-
-#beta {
-  width: 98px;
-  height: 98px;
-  position: absolute;
-  top: -48px;
-  left: -25px;
-  background: url(images/beta.png);
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 0;
+  }
 }
 
-#beta span {
+#profile-title {
   display: none;
 }
 
@@ -34,18 +30,6 @@ body {
 }
 
 /* * * Controles do topo * * * * * * * * * * * * * * * * * * * * * * * * * */
-
-#theme-header {
-  border-top: 8px solid #564F47;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-  z-index: 100;
-}
-
-.logged-in #theme-header {
-  position: fixed;
-}
 
 #top-functions-box {
   margin: auto;
@@ -96,46 +80,7 @@ body {
   display: none;
 }
 
-#user {
-  display: inline-block;
-  position: static;
-  color: rgba(255,255,255,0.4);
-  border-left: 1px dotted #959491;
-  padding-left: 6px;
-  margin-left: 11px;
-}
-
-.logged-in #user {
-  border-left: none;
-  padding-left: 0;
-}
-
 .logged-in .label-conect {
-  display: none;
-}
-
-#user a {
-  text-decoration: none;
-}
-
-#user .not-logged-in a {
-  background: url(images/icons/ok-smal.png) no-repeat 0% 50%;
-  padding-left: 15px;
-  margin: 0px 3px;
-}
-
-#user .not-logged-in a i {
-  display: none;
-}
-
-#user a strong {
-  color: #D8D4D0;
-}
-#user a:hover strong {
-  color: #FFF;
-}
-
-#user form div {
   display: none;
 }
 
@@ -284,31 +229,6 @@ body {
 
 /* * * fim dos Controles do topo * * * * * * * * * * * * * * * * * * * * * */
 
-
-/* o bloco navigation será degenerado para um simples separador */
-#navigation {
-  background: url(images/dots.png);
-  right: 0;
-  text-align: right;
-  top: 130px;
-  width: 100%;
-  height: 9px;
-}
-
-#navigation-end {
-  display: none;
-}
-
-#wrap-2 {
-  margin: 20px auto 0px auto;
-  width: 941px;
-  -moz-border-radius: 10px 10px 0px 0px;
-  border-radius: 10px 10px 0px 0px;
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  border: none;
-}
 
 #content {
 }
