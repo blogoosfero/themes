@@ -7,8 +7,16 @@ body {
   color: #000;
 }
 
+// workaround for responsive
 .common-profile-list-block img {
   max-width: 50px;
+}
+
+// blogoosfero: we want this on mobile too
+@media (max-width: 767px) {
+  #profile-header {
+    display: block;
+  }
 }
 
 @media (min-width: 768px) {
