@@ -879,3 +879,8 @@ body #content .highlighted-news-read-more a {
 .controller-doc a:visited {
   color: #ccc;
 }
+
+/*hides blog date */
+#article-header .publishing-info {
+  display: none;
+}
