@@ -514,16 +514,27 @@ body {
 /* * * Footer * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 #theme-footer {
-  background: #EEE;
+  background-color: #333;
+  border-color: #444444;
+  //background: #EEE;
   width: auto;
   //margin: -5px 0px;
   position: relative;
   z-index: 10;
   overflow: hidden;
+  color: white;
+
+  a:hover {
+    color: inherit;
+  }
+
+  input {
+    color: black;
+  }
 }
 
 #footer-content {
-  background: #EEE;
+  //background: #EEE;
   margin: -5px auto;
   padding: 30px 20px 20px 20px;
 //  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -559,7 +570,7 @@ body {
   color: #888;
 }
 #footer-content a:hover {
-  color: #333;
+  //color: #333;
   text-decoration: underline;
 }
 
