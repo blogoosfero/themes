@@ -2,6 +2,8 @@
 $bootstrap-loaded: true;
 @import '../base-responsive/style';
 
+@import "stylesheets/theme";
+
 body {
   background: #F8F8F8 url(images/grade2.png);
   color: #000;
@@ -96,16 +98,14 @@ body {
   display: none;
 }
 
-#cse-search-box,
-#top-search {
+#cse-search-box {
   display:inline-block;
   position: relative;
   top: -7px;
   padding-left: 10px;
 }
 
-#cse-search-box input,
-#top-search input {
+#cse-search-box input {
   background: #F3F2F1;
   border: 1px solid #A09890;
   -moz-border-radius: 6px;
@@ -113,8 +113,7 @@ body {
   padding: 7px 0px;
 }
 
-#cse-search-box div,
-#top-search div {
+#cse-search-box div {
   color: #000;
   background: #FFF;
   font-size: 11px;
