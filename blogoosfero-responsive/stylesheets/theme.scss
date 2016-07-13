@@ -1,7 +1,10 @@
 // say to base-responsive that we already took care of boostrap
 $bootstrap-loaded: true;
 @import '../base-responsive/style';
-@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,700,300);
+//@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,700italic);
+
+
 
 @import 'top_bar';
 @import 'base';
@@ -16,7 +19,8 @@ $change-wireframe: true !default;
 /* Globals */
 //@import url(https://fonts.googleapis.com/css?family=Lato);
 body {
-  font:13px/26px 'Comfortaa';
+  //font:13px/26px 'Comfortaa';
+  font-family: 'Ubuntu', sans-serif;
   //background: url(/designs/themes/ecoalternative/images/bg.png);
 }
 
