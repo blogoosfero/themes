@@ -1,5 +1,0 @@
-@import 'base';
-
-@import 'set_base_color';
-@include set-base-color(red, lighten(red, 20%), lighten(red, 40%));
-
