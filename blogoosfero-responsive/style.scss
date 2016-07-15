@@ -2,9 +2,13 @@
 $bootstrap-loaded: true;
 @import '../base-responsive/style';
 
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,700italic);
+
+
 body {
   background: #F8F8F8 url(images/grade2.png);
   color: #000;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 // workaround for responsive
